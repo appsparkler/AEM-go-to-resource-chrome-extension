@@ -1,0 +1,20 @@
+{
+  "name": "AEM Dev Super Tools",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "minimum_chrome_version": "23",
+  "description": "Super tools for AEM developers.",
+
+  "icons": {
+    "16": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+
+  "background": {
+    "scripts": ["open-tab-for-publish-page.js"],
+    "persistent": false
+  },
+
+  "offline_enabled": false,
+  "permissions": ["contextMenus", "tabs"]
+}
